@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Stock Hawk</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+
+
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
+
+    <string name="default_stocks_yahoo">YHOO</string>
+    <string name="default_stocks_apple">AAPL</string>
+    <string name="default_stocks_microsoft">MSFT</string>
+    <string name="default_stocks_facebook">FB</string>
+
+
+    <string name="action_change_units">@string/pref_display_mode_key</string>
+
+
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+
+    <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+
+    <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="title_activity_line_graph">LineGraphActivity</string>
+    <string name="stock_values">Stock Values</string>
+    <string name="stock_values_label">Stock Values over time</string>
+    <string name="empty_stock_list">No stocks present.</string>
+    <string name="symbol_add_error_msg">Unable to add symbol %s</string>
+    <string name="float_action_button_desc">Action for adding stock value.</string>
+    <string name="error_msg">Error message</string>
+    <string name="goog_symbol_text">GOOG</string>
+    <string name="price_fixed_val">1000.00</string>
+    <string name="precentage_fixed_val">100%</string>
+    <string name="symbol_clicked_log_msg">Symbol clicked: %s</string>
+    <string name="intent_handled_log_msg">Intent handled</string>
+    <string name="sync_job_running_log_msg">Running sync job</string>
+    <string name="scheduling_periodic_task">Scheduling a periodic task</string>
+    <string name="empty_stock_log_msg">WHYAREWEHERE</string>
+
+</resources>
